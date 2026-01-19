@@ -12,6 +12,12 @@ public class PanelDePruebas {
 
     public static void probarTemperatura() {
         // TODO: crear objetos y mostrar resultados
+        Temperatura F = new Temperatura(50,"F");
+        F.convertirACelsius();
+        System.out.println(F.mostrar());
+        Temperatura C = new Temperatura(50,"C");
+        C.convertirAFahrenheit();
+        System.out.println(C.mostrar());
     }
 
     public static void probarContador() {
