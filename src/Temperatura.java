@@ -10,16 +10,14 @@ public class Temperatura {
 
     public double convertirACelsius() {
         // TODO: implementar conversión si la unidad es F
-        double celsius;
-        celsius = (this.valor-32) * ((double) 5 /9);
-        return celsius;
+        this.valor = (this.valor-32) * ((double) 5 /9);
+        return this.valor;
     }
 
     public double convertirAFahrenheit() {
         // TODO: implementar conversión si la unidad es C
-        double Fahrenheit;
-        Fahrenheit = (this.valor * 9 / 5) + 32;
-        return Fahrenheit;
+        this.valor = (this.valor * 9 / 5) + 32;
+        return this.valor;
     }
 
     public String mostrar() {
