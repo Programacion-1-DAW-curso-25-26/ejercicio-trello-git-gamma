@@ -7,11 +7,11 @@ public class Contador {
     }
 
     public void incrementar() {
-        // TODO: sumar 1
+        valor++;
     }
 
     public void decrementar() {
-        // TODO: restar 1
+        valor--;
     }
 
     public void reset() {

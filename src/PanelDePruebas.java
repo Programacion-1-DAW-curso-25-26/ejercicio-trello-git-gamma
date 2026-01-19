@@ -16,6 +16,18 @@ public class PanelDePruebas {
 
     public static void probarContador() {
         // TODO: probar incrementar, decrementar, reset
+        Contador contar = new Contador();
+        contar.incrementar();
+        contar.incrementar();
+        contar.incrementar();
+        System.out.println(contar.mostrar());
+
+        contar.decrementar();
+        System.out.println(contar.mostrar());
+
+        contar.reset();
+        System.out.println(contar.mostrar());
+
     }
 
     public static void probarMensaje() {
